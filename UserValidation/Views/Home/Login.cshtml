@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="text-center">
+    <div class="FormBody">
+        <form action="/home/Validate">
+        <table>
+            <tr>
+                <td>
+                    <div class="input-group input-group-sm mb-3">
+                        <label for="userId">
+                            <span id="inputGroup-sizing-sm">User Id:</span>
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-group input-group-sm mb-3">
+                        <input type="text" id="userId" name="userId" class="form-control"
+                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="input-group input-group-sm mb-3">
+                        <label for="userId">
+                            <span id="inputGroup-sizing-sm">Password:</span>
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-group input-group-sm mb-3">
+                        <input type="password" name="password" id="password" class="form-control"
+                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit" class="btn btn-primary">Submit</button></td>
+            </tr>
+        </table>
+
+
+    </form>
+
+    </div>
+
+
+</div>
